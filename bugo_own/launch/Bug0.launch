@@ -1,0 +1,6 @@
+<launch>
+    <param name="Activate" type="bool" value="false" />
+    <param name="x_goalt" type="int" value="0" />
+    <param name="y_goal" type="int" value="0" />
+    <node name="bug0" pkg="bugo_own" type="bug0.py" output="screen"/>
+</launch>
